@@ -1,8 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "Fb7FE/5ULyU=",
+  "dgSpecHash": "pBl3KSCH+Ts=",
   "success": true,
   "projectFilePath": "C:\\Users\\asus\\Desktop\\Uni_Sorce\\SorceCode\\MiniApps\\MiniApps\\HTMLAglity\\HtmlAglityExercises\\HTMLAglity\\HTMLAglity.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\asus\\.nuget\\packages\\htmlagilitypack\\1.12.2\\htmlagilitypack.1.12.2.nupkg.sha512",
+    "C:\\Users\\asus\\.nuget\\packages\\htmlagilitypack.cssselectors\\1.0.2\\htmlagilitypack.cssselectors.1.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "message": "Package 'HtmlAgilityPack.CssSelectors 1.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "projectPath": "C:\\Users\\asus\\Desktop\\Uni_Sorce\\SorceCode\\MiniApps\\MiniApps\\HTMLAglity\\HtmlAglityExercises\\HTMLAglity\\HTMLAglity.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\asus\\Desktop\\Uni_Sorce\\SorceCode\\MiniApps\\MiniApps\\HTMLAglity\\HtmlAglityExercises\\HTMLAglity\\HTMLAglity.csproj",
+      "libraryId": "HtmlAgilityPack.CssSelectors",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
