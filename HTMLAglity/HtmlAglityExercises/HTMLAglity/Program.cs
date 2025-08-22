@@ -34,16 +34,35 @@ Console.WriteLine(title);
 
 #region step3: Extract Multiple Elements
 
-// get the list of HTML product nodes
-var productHTMLElement = document.DocumentNode.SelectSingleNode("//li[contains(@class, 'product')]");
+// get the first HTML product nodes
+var firstProductElement = document.DocumentNode.SelectSingleNode("//li[contains(@class, 'product')]");
 
 // data extraction logic
-var name = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//h2").InnerText);
-var image = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//img").Attributes["src"].Value);
-var price = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//span").InnerText);
+var nameOfProduct = HtmlEntity.DeEntitize(firstProductElement.SelectSingleNode(".//h2").InnerText);
+var imageOfProduct = HtmlEntity.DeEntitize(firstProductElement.SelectSingleNode(".//img").Attributes["src"].Value);
+var priceOfProduct = HtmlEntity.DeEntitize(firstProductElement.SelectSingleNode(".//span").InnerText);
 
 // print the scraped data
-Console.WriteLine($"{{ Name = {name}, Image = {image}, Price = {price} }}");
+Console.WriteLine($"{{ Name = {nameOfProduct}, Image = {imageOfProduct}, Price = {priceOfProduct} }}");
+
+#endregion
+
+#region Step 4: Extract All Matching Elements from a Page
+
+// get the list of HTML product nodes
+var productHTMLElements = document.DocumentNode.SelectNodes("//li[contains(@class, 'product')]");
+
+// iterate over the list of product HTML elements
+foreach (var productHTMLElement in productHTMLElements)
+{
+    // data extraction logic
+    var name = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//h2").InnerText);
+    var image = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//img").Attributes["src"].Value);
+    var price = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//span").InnerText);
+
+    // print the scraped data
+    Console.WriteLine($"{{ Name = {name}, Image = {image}, Price = {price} }}");
+}
 
 #endregion
 
