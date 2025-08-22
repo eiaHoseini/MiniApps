@@ -14,9 +14,36 @@ var web = new HtmlWeb();
 var document = web.Load("https://www.scrapingcourse.com/ecommerce/");
 
 // print the raw HTML as a string 
-Console.WriteLine(document.DocumentNode.OuterHtml);
+//Console.WriteLine(document.DocumentNode.OuterHtml);
 
 // scraping logic...
+
+#endregion
+
+#region Step 2: Extract a Single Element
+
+// retrieve the "<title>" element
+var titleElement = document.DocumentNode.SelectSingleNode("//title");
+Console.WriteLine(titleElement);
+
+// extract the inner text from it and print it
+var title = HtmlEntity.DeEntitize(titleElement.InnerText);
+Console.WriteLine(title);
+
+#endregion
+
+#region step3: Extract Multiple Elements
+
+// get the list of HTML product nodes
+var productHTMLElement = document.DocumentNode.SelectSingleNode("//li[contains(@class, 'product')]");
+
+// data extraction logic
+var name = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//h2").InnerText);
+var image = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//img").Attributes["src"].Value);
+var price = HtmlEntity.DeEntitize(productHTMLElement.SelectSingleNode(".//span").InnerText);
+
+// print the scraped data
+Console.WriteLine($"{{ Name = {name}, Image = {image}, Price = {price} }}");
 
 #endregion
 
