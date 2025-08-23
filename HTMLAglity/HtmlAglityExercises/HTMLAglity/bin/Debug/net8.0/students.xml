@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Student>
+    <Id>1</Id>
+    <StudentNumber>1001</StudentNumber>
+    <FirstName>Ali</FirstName>
+    <LastName>Rezaei</LastName>
+    <City>Tehran</City>
+    <Gender>Mail</Gender>
+    <PhoneNumber>0912</PhoneNumber>
+    <DateOfBirth>0001-01-01T00:00:00</DateOfBirth>
+  </Student>
+  <Student>
+    <Id>2</Id>
+    <StudentNumber>1002</StudentNumber>
+    <FirstName>Sara</FirstName>
+    <LastName>Mohammadi</LastName>
+    <City>Yazd</City>
+    <DateOfBirth>0001-01-01T00:00:00</DateOfBirth>
+  </Student>
+</Students>
