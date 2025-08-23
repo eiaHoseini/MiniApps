@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Notes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Note Id="1" CreatedAt="2025-08-24T01:29:27.1011626+03:30">
+    <Title>Study XML</Title>
+    <Content>Learn XML + C# Serialization/Deserialization.</Content>
+    <Tags>
+      <Tag>XML</Tag>
+      <Tag>CSharp</Tag>
+      <Tag>Notes</Tag>
+    </Tags>
+  </Note>
+</Notes>

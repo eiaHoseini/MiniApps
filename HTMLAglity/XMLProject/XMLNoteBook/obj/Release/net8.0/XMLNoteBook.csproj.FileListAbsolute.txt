@@ -1,0 +1,15 @@
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\bin\Release\net8.0\XMLNoteBook.exe
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\bin\Release\net8.0\XMLNoteBook.deps.json
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\bin\Release\net8.0\XMLNoteBook.runtimeconfig.json
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\bin\Release\net8.0\XMLNoteBook.dll
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\bin\Release\net8.0\XMLNoteBook.pdb
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.AssemblyInfo.cs
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.sourcelink.json
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.dll
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\refint\XMLNoteBook.dll
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.pdb
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\XMLNoteBook.genruntimeconfig.cache
+C:\Users\asus\Desktop\Uni_Sorce\SorceCode\MiniApps\MiniApps\HTMLAglity\XMLProject\XMLNoteBook\obj\Release\net8.0\ref\XMLNoteBook.dll
