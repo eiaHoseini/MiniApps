@@ -7,9 +7,12 @@ using XMLNoteBook.View;
 
 #region NoteBook
 
-var XmlPath = "notes.xml";
+// Paths
+var xmlLocalPath = "notes.xml";
+var xmlDesktopPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "XMLsProjects", "notes.xml");
+Directory.CreateDirectory(Path.GetDirectoryName(xmlDesktopPath));
 
-var notes = XmlHelper.Load<NotesCollection>(XmlPath);
+var notes = XmlHelper.Load<NotesCollection>(xmlLocalPath);
 
 var newNote = new Note
 {
@@ -22,13 +25,15 @@ var newNote = new Note
 
 notes.Notes.Add(newNote);
 
-XmlHelper.Save(XmlPath, notes);
+// Save to both locations
+XmlHelper.Save(xmlLocalPath, notes);
+XmlHelper.Save(xmlDesktopPath, notes);
 
-Console.WriteLine("New note added and saved to XML.");
+Console.WriteLine("Notes saved in both Local and Desktop/XMLsProjects folder.");
 
-var loadedNotes = XmlHelper.Load<NotesCollection>(XmlPath);
+var loadedNotes = XmlHelper.Load<NotesCollection>(xmlLocalPath);
 foreach (var note in loadedNotes.Notes)
-    Console.WriteLine($"[{note.Id}] {note.Title} :: {note.CreatedAt}");
+    Console.WriteLine($"[{note.Id}] {note.Title} :: {note.CreatedAt.TimeOfDay}");
 
 #endregion
 

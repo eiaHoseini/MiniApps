@@ -9,4 +9,22 @@
       <Tag>Notes</Tag>
     </Tags>
   </Note>
+  <Note Id="2" CreatedAt="2025-08-24T02:01:24.7513755+03:30">
+    <Title>Study XML</Title>
+    <Content>Learn XML + C# Serialization/Deserialization.</Content>
+    <Tags>
+      <Tag>XML</Tag>
+      <Tag>CSharp</Tag>
+      <Tag>Notes</Tag>
+    </Tags>
+  </Note>
+  <Note Id="3" CreatedAt="2025-08-24T02:01:46.32473+03:30">
+    <Title>Study XML</Title>
+    <Content>Learn XML + C# Serialization/Deserialization.</Content>
+    <Tags>
+      <Tag>XML</Tag>
+      <Tag>CSharp</Tag>
+      <Tag>Notes</Tag>
+    </Tags>
+  </Note>
 </Notes>
