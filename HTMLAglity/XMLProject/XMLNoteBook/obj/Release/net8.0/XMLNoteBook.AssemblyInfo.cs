@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XMLNoteBook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+acb392c92c7d1623e7bb199ef9a949e87758e998")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df98e9c6f69327cccd99329a657d1476cf3dce43")]
 [assembly: System.Reflection.AssemblyProductAttribute("XMLNoteBook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XMLNoteBook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
