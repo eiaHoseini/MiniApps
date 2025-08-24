@@ -5,6 +5,7 @@ using XMLNoteBook.View;
 
 #endregion
 
+//TODO: Update this project to a CRUD App
 #region NoteBook
 
 // Paths
