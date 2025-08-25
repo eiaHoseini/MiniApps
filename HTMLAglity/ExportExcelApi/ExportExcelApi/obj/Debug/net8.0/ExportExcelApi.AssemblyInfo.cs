@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExportExcelApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a7759323e08a2460ae02b48759ad73f50beb549")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b3e0a8382cde1599cb6f74f3725205c7d3b9cfd")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExportExcelApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExportExcelApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
